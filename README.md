@@ -2,8 +2,12 @@ Official LESS CSS Compiler for Java
 ===================================
 
 ----------
+This is a fork, and is build on travis [![Build Status](https://travis-ci.org/spmiller/lesscss-java.svg?branch=master)](https://travis-ci.org/spmiller/lesscss-java)
+----------
 
-> Important note: 
+----------
+
+> Important note:
 > Due to changed interesst I'm no longer maintaining this project. Based on the frequent questions I get by e-mail and requests for updates (including pull requests) I think this project would serve it's goal to be continued. Therefore if you are interested to take over and bring this project to the next level contact me.
 
 ----------
@@ -13,13 +17,13 @@ LESS CSS Compiler for Java is a library to compile LESS sources to CSS styleshee
 The compiler uses Rhino, Envjs (simulated browser environment written in JavaScript), and the official LESS JavaScript compiler.
 
 Look at the simple example below to compile LESS to CSS:
- 
+
     // Instantiate the LESS compiler
     LessCompiler lessCompiler = new LessCompiler();
-    
+
     // Compile LESS input string to CSS output string
     String css = lessCompiler.compile("@color: #4D926F; #header { color: @color; }");
-    
+
     // Or compile LESS input file to CSS output file
     lessCompiler.compile(new File("main.less"), new File("main.css"));
 
@@ -73,7 +77,7 @@ Can be built with [Maven 2.2.x](http://maven.apache.org) (or later?) by using th
 or, to install into your local Maven repository:
 
     mvn install
-    
+
 You may also wish to build API Documentation:
 
     mvn javadoc:javadoc
