@@ -5,8 +5,8 @@ script: ./travis_build.sh
 env:
   global:
   - BUILD_NUMBER=$TRAVIS_BUILD_NUMBER
-  - secure: WbbA1qEGJqeoD8pfv0O1+LaQsuEa0d9BqBEO3BcSVe+ajbnybUnFzUdweVGZAL+TkzEiA7/q8tQJgI+8VxNzhlfD0n7vFya62jK1VhZCcHA6cTS9cGDkRD0bbUdRl2Am9y1k3giSjDuMUiKetT8/fEloZKDc1R5tLi1cahzT/+w=
-  - secure: XKuBU1Vx7vajHKCmwKkj7i9Z6IR6hmpD4HuOLRd1FsfgJ5YrWf0J2/CEk2mj/F13m3Fliok6AZGlJ9NeOWgylB8bMk6G2C3BpnKQrR4L5VQgQfE6EV7nyZRipQySCbISm2TkLrgwyvbzby5KoHozVdtJX/iWKpoel0LqUvOS32c=
+  - secure: UAyyiISVgcPjVXGkChjWWjeoHTFC/Zml5PfJwxoRuIsq6XgKFO4HgvETTY0p+fD85rZpYXsIHUKJWvykTJBTK7P6m81HsFNsD7rV+lJDbDId7iSTwpHiBZT8Xlhi1LbUgJZ5Ew8eP8NOjNsEuxJ6D+pKac6b/XcWa2EcA7EUpYM=
+  - secure: DMEAtPoyYlMCU2woZ8m0ADFU71HlmG43q2Orf463MBDWfl2GpeEi+qZiPvJR7fodBRj0yJiTJpq9Ol1vsFtAhpSNq5iFbmwOvdb73/YoVyr7kyp/MUmj6YzfHdup79zlYYtnWJWKyVQFHp9J5eqrJ+TetGLJ5ePI0Oa8j8Bvlho=
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
