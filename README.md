@@ -2,7 +2,7 @@ Official LESS CSS Compiler for Java
 ===================================
 
 ----------
-This is a fork, and is build on travis [![Build Status](https://travis-ci.org/spmiller/lesscss-java.svg?branch=master)](https://travis-ci.org/spmiller/lesscss-java)
+This is a fork, and is built on travis [![Build Status](https://travis-ci.org/spmiller/lesscss-java.svg?branch=master)](https://travis-ci.org/spmiller/lesscss-java)
 ----------
 
 ----------
